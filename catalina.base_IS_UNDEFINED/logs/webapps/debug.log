@@ -1,0 +1,21 @@
+2019-01-09 15:48:45.797 [main] DEBUG com.zrmall.o2o.mapper.AreaMapper.queryArea - ==>  Preparing: select area_id,area_name, priority, create_time, last_edit_time from tb_area order by priority DESC 
+2019-01-09 15:48:45.971 [main] DEBUG com.zrmall.o2o.mapper.AreaMapper.queryArea - ==> Parameters: 
+2019-01-09 15:48:46.045 [main] DEBUG com.zrmall.o2o.mapper.AreaMapper.queryArea - <==      Total: 2
+2019-01-09 15:48:46.190 [main] DEBUG c.z.o.mapper.ShopCategoryMapper.queryShopCategory - ==>  Preparing: select shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id from tb_shop_category WHERE parent_id is null order by priority desc 
+2019-01-09 15:48:46.191 [main] DEBUG c.z.o.mapper.ShopCategoryMapper.queryShopCategory - ==> Parameters: 
+2019-01-09 15:48:46.232 [main] DEBUG c.z.o.mapper.ShopCategoryMapper.queryShopCategory - <==      Total: 6
+2019-01-09 15:48:46.242 [main] DEBUG com.zrmall.o2o.mapper.AreaMapper.queryArea - ==>  Preparing: select area_id,area_name, priority, create_time, last_edit_time from tb_area order by priority DESC 
+2019-01-09 15:48:46.242 [main] DEBUG com.zrmall.o2o.mapper.AreaMapper.queryArea - ==> Parameters: 
+2019-01-09 15:48:46.244 [main] DEBUG com.zrmall.o2o.mapper.AreaMapper.queryArea - <==      Total: 2
+2019-01-09 15:48:46.255 [main] DEBUG c.z.o.mapper.ShopCategoryMapper.queryShopCategory - ==>  Preparing: select shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id from tb_shop_category WHERE parent_id is null order by priority desc 
+2019-01-09 15:48:46.256 [main] DEBUG c.z.o.mapper.ShopCategoryMapper.queryShopCategory - ==> Parameters: 
+2019-01-09 15:48:46.262 [main] DEBUG c.z.o.mapper.ShopCategoryMapper.queryShopCategory - <==      Total: 6
+2019-01-09 15:53:08.326 [main] DEBUG com.zrmall.o2o.mapper.ShopMapper.insert - ==>  Preparing: insert into tb_shop (shop_id, owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority, create_time, last_edit_time, enable_status, advice) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2019-01-09 15:53:08.396 [main] DEBUG com.zrmall.o2o.mapper.ShopMapper.insert - ==> Parameters: null, 1(Long), 2(Integer), 10(Long), 测试的店铺3(String), test3(String), test3(String), test3(String), null, null, 2019-01-09 15:53:07.689(Timestamp), 2019-01-09 15:53:07.689(Timestamp), 0(Integer), 审核中(String)
+2019-01-09 15:53:08.486 [main] DEBUG com.zrmall.o2o.mapper.ShopMapper.insert - <==    Updates: 1
+2019-01-09 15:53:08.508 [main] DEBUG com.zrmall.o2o.util.ImageUtil - current relativeAddr is :\upload\images\item\shop\36\2019010915530819624.jpg
+2019-01-09 15:53:08.509 [main] DEBUG com.zrmall.o2o.util.ImageUtil - current complete addr is :D:\projectdev\image\upload\images\item\shop\36\2019010915530819624.jpg
+2019-01-09 15:53:08.509 [main] DEBUG com.zrmall.o2o.util.ImageUtil - basePath is :/C:/Users/John/Desktop/o2o/target/test-classes/
+2019-01-09 15:53:08.974 [main] DEBUG c.zrmall.o2o.mapper.ShopMapper.updateByPrimaryKey - ==>  Preparing: update tb_shop SET owner_id = ?, area_id = ?, shop_category_id = ?, shop_name = ?, shop_desc = ?, shop_addr = ?, phone = ?, shop_img = ?, create_time = ?, last_edit_time = ?, enable_status = ?, advice = ? where shop_id = ? 
+2019-01-09 15:53:08.976 [main] DEBUG c.zrmall.o2o.mapper.ShopMapper.updateByPrimaryKey - ==> Parameters: 1(Long), 2(Integer), 10(Long), 测试的店铺3(String), test3(String), test3(String), test3(String), \upload\images\item\shop\36\2019010915530819624.jpg(String), 2019-01-09 15:53:07.689(Timestamp), 2019-01-09 15:53:07.689(Timestamp), 0(Integer), 审核中(String), 36(Integer)
+2019-01-09 15:53:09.043 [main] DEBUG c.zrmall.o2o.mapper.ShopMapper.updateByPrimaryKey - <==    Updates: 1

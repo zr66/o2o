@@ -1,0 +1,1 @@
+2018-11-16 15:12:11.426 [http-bio-9999-exec-4] ERROR com.zrmall.o2o.util.ImageUtil - net.coobird.thumbnailator.tasks.UnsupportedFormatException: No suitable ImageReader found for source data.
